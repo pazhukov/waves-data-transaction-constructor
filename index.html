@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-8904543-15"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-8904543-15');
+    </script>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Waves Plarform Data Transaction Constructor .::. Pazhukov Max</title>
+	<meta name="description" content="Waves Plarform Data Transaction Constructor">
+	<meta name="keywords" content="Waves, Plarform, Data Transaction, Constructor, Generator, Waves Plarform">
+	<meta name="author" content="Pazhukov Max">
+	<meta name="yandex-verification" content="ae8d43d2510be72e" />
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	  <a class="navbar-brand" href="http://waves-data-transaction-constructor.tech">Data Transaction Constructor</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#jsonTxt">Get JSON</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" >&copy; 2019 Pazhukov Max</a>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-12">	
+				<br/>
+				<div class="input-group input-group-sm mb-3">
+					<div class="input-group-prepend">
+					<span class="input-group-text" id="inputGroup-sizing-sm">Waves Address</span>
+					</div>
+					<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" id="wavesAddr">
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-12">
+				<h4>Add Data</h4>
+				<form>
+					<div class="form-group">
+						<div class="input-group input-group-sm mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="inputGroup-sizing-key">key</span>
+							</div>
+							<input class="form-control" type="text" aria-describedby="inputGroup-sizing-key" id="keyTxt">
+						</div>
+						<div class="input-group input-group-sm mb-3">
+							<div class="input-group-prepend">
+								<label class="input-group-text" for="inputGroupSelect01">type</label>
+							</div>						
+							<select class="form-control" class="custom-select" id="typeTxt">
+								<option disabled selected>Select type</option>
+								<option value="integer">integer</option>
+								<option value="boolean">boolean</option>
+								<option value="string">string</option>
+							</select>
+						</div>	
+						<div class="input-group input-group-sm mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="inputGroup-sizing-value">value</span>
+							</div>
+							<input class="form-control" type="text" aria-describedby="inputGroup-sizing-value" id="valueTxt">
+						</div>					
+						<br/><input class="btn btn-primary" type="button" id="addData" value="Add" />
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<table class="table" id="dataList">
+
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">key</th>
+						<th scope="col">type</th>
+						<th scope="col">value</th>
+
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<h4>JSON</h4>
+				<form>
+					<div class="form-group">
+						<textarea class="form-control" id="jsonTxt" rows="10"></textarea>
+					</div>
+				</form>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
